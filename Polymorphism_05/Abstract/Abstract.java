@@ -1,5 +1,5 @@
 package Abstract;
-// I crete a class that will not vahe any instance but serve as a blueprint for other classes
+// I crete a class that will not have any instance but serve as a blueprint for other classes
 // like Men and Women that extends Human
 abstract class Human{
     public abstract void eat();  // I am not implementing the method, needs to be implemented in the extended classes

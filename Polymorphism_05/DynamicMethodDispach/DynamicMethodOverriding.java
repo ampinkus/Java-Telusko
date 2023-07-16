@@ -1,4 +1,4 @@
-package DynamicMethodOverriding;
+package DynamicMethodDispach;
 
 
 class A {
@@ -26,7 +26,7 @@ class C extends A {
 public class DynamicMethodOverriding {
     public static void main(String[] args) {
         // as B extends A, I can use as reference A and object of B
-        // the objects are of B, linking is done at runtime.  Its called runtime polymorphism.
+        // the objects are of B, linking is done at runtime.  It's called runtime polymorphism.
         A objB = new B();
         // decision of which methods is done at runtime, we will call the method in B
         objB.show();

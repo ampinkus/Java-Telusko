@@ -28,7 +28,6 @@ class Student{
 
 public class Encapsulation {
     public static void main(String[] args) {
-        // in the class Student we can access the properties directly
         Student stu1 = new Student();
         // As the variables are private I cant access them directly
         // stu1.rollNumber = 12;
