@@ -24,11 +24,22 @@ class Estudiantes implements Comparable<Estudiantes> {
                 '}';
     }
     // the compareTo method that we need to implement in the class, in this example marks
+   /*
     @Override
     public int compareTo(Estudiantes other) {
         // Implement the comparison logic based on rollNumber
         return Integer.compare(this.marks, other.marks);
     }
+    *
+    */
+
+    // to compare names
+    @Override
+    public int compareTo(Estudiantes other) {
+        // Implement the comparison logic based on name
+        return this.name.compareTo(other.name);
+    }
+
     /*
     The compareTo method is implemented within the Estudiantes class. Inside this method, we provide the comparison logic
     based on the rollNumber of the students. The compareTo method returns a negative value if this.rollNumber
